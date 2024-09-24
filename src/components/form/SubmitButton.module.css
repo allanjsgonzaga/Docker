@@ -1,0 +1,14 @@
+/*Usa a pripriedade flex e deixa os itens em coluna*/
+.btn {
+    background-color: #222;
+    color: #fff;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    color: #ffbb33;
+}
