@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Docker/static/css/main.58cf6b59.css",
+    "main.js": "/Docker/static/js/main.5d71e0e0.js",
+    "static/media/savings.svg": "/Docker/static/media/savings.25a5174d3c0ce57522d68f3ba58b7407.svg",
+    "index.html": "/Docker/index.html",
+    "main.58cf6b59.css.map": "/Docker/static/css/main.58cf6b59.css.map",
+    "main.5d71e0e0.js.map": "/Docker/static/js/main.5d71e0e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58cf6b59.css",
+    "static/js/main.5d71e0e0.js"
+  ]
+}
