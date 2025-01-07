@@ -9,8 +9,8 @@ function NewProject(){
 
     function createPost(project){
 
-        //initialize cost and services
-        project.cost = 0
+        //initialize docker and services
+        project.docker = 0
         project.services = []
 
         fetch("http://localhost:5000/projects", {

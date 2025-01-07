@@ -8,11 +8,13 @@ function ProjectForm({handleSubmit, btnText, projectData}) {
     const [categories,setCategories] = useState([])
     const [project, setProject] = useState(projectData || {})
 
+
+    //receber os dados do banco e converter em formato JSON
     useEffect(() =>{
         fetch('http://localhost:5000/categories', {
             method: 'GET',
             headers: {
-                'Content-type': 'application/json'
+                'accept': 'application/json'
             },
         })
             .then((resp) =>resp.json())
@@ -39,14 +41,14 @@ function ProjectForm({handleSubmit, btnText, projectData}) {
                 text="nome do projeto"
                 name="name"
                 placeholder="insira o nome do projeto"
-                hangleOnChange={handleChange}
+                handleOnChange={handleChange}
             />
             <Input
                 type="number"
                 text="orçamento do projeto"
                 name="budget"
                 placeholder="insira o orçamento do projeto"
-                hangleOnChange={handleChange}
+                handleOnChange={handleChange}
             />
             <Select 
             name="category_id" 
