@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom'
-
 import ProjectForm from "../project/ProjectForm"
 
 import styles from "./NewProject.module.css"
@@ -9,12 +8,12 @@ function NewProject(){
 
     function createPost(project){
 
-        //initialize docker and services
+        //initialize docker and services (um dos atributos do projeto que será adicionado ao longo da utilização)
         project.docker = 0
         project.services = []
 
         fetch("http://localhost:5000/projects", {
-            method: 'post',
+            method: 'POST',
             headers: {
                 'Content-type': 'application/json',
             },
@@ -24,6 +23,8 @@ function NewProject(){
             .then((data) =>{
                 console.log(data)
                 // redirect
+                navigate('/projects',{state:{ message: 'Projeto criado com sucesso!' }})
+                //apos att do ES6, esse é a forma utilizada para redirecionar a página
             })
             .catch((err) => console.log(err))
 

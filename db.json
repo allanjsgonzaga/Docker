@@ -4,6 +4,52 @@
       "id": "bdc9",
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "97ba",
+      "name": "teste",
+      "docker": 0,
+      "services": []
+    },
+    {
+      "id": "a4e2",
+      "name": "teste",
+      "docker": 0,
+      "services": [],
+      "budget": "123"
+    },
+    {
+      "id": "e867",
+      "name": "projeto teste",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "docker": 0,
+      "services": []
+    },
+    {
+      "id": "2de1",
+      "name": "projeto teste",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "docker": 0,
+      "services": []
+    },
+    {
+      "id": "8ebc",
+      "name": "teste",
+      "budget": "1000",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "docker": 0,
+      "services": []
     }
   ],
   "categories": [
