@@ -94,6 +94,102 @@
       },
       "docker": 0,
       "services": []
+    },
+    {
+      "id": "5bfb",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "f501",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "b9da",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "16cd",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "0349",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "de9e",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "8cf8",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "d44c",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "31db",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "7354",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "a753",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "cb92",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "150c",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "3111",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "804f",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "3335",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "2f35",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "775a",
+      "name": "teste allan",
+      "budget": "15000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "docker": 0,
+      "services": []
     }
   ],
   "categories": [
