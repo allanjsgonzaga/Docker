@@ -195,6 +195,28 @@
       "id": "3513",
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "5d20",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "budget": "12323",
+      "name": "aawew",
+      "docker": 0,
+      "services": []
+    },
+    {
+      "id": "eee1",
+      "name": "teste novo",
+      "budget": "150000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "docker": 0,
+      "services": []
     }
   ],
   "categories": [
